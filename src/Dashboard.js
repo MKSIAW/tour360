@@ -143,94 +143,94 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
+        <img src="kempinski.jpg" alt="Tourist Site 1" />
+          <h3>Kempinski Luxury Hotel</h3>
+          <p>Location: Accra</p>
+          <p>Rating: 5.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="maxmart.jpg" alt="Tourist Site 1" />
+          <h3>MaxMart Shopping Center</h3>
+          <p>Location: Accra</p>
+          <p>Rating: 4.8</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="villagio.jpg" alt="Tourist Site 1" />
+          <h3>Villagio Apartments</h3>
+          <p>Location: Airport City</p>
+          <p>Rating: 4.3</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="kintampo.jpg" alt="Tourist Site 1" />
+          <h3>Kintampo Falls</h3>
+          <p>Location: KIntampo</p>
+          <p>Rating: 3.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="kwame.jpg" alt="Tourist Site 1" />
+          <h3>Kwame Nkrumah Mausoleum</h3>
+          <p>Location: Accra</p>
+          <p>Rating: 5.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="statue.jpg" alt="Tourist Site 1" />
+          <h3>Posuban Shrine</h3>
+          <p>Location: Central Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="mankessim.jpg" alt="Tourist Site 1" />
+          <h3>Mankessim Posuban</h3>
           <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
+        <img src="jazz.jpg" alt="Tourist Site 1" />
+          <h3>+233 Jazz Bar & Grill</h3>
+          <p>Location: Roman Ridge</p>
+          <p>Rating: 4.3</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="peduase.jpg" alt="Tourist Site 1" />
+          <h3>Peduase Valley Resort</h3>
+          <p>Location: Aburi</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
+        <img src="HUHUNYA.webp" alt="Tourist Site 1" />
+          <h3>Huhunya Caves</h3>
+          <p>Location: Huhunya</p>
+          <p>Rating: 2.4</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
+        <img src="royal.jpg" alt="Tourist Site 1" />
+          <h3>The Royal Senchi Resort</h3>
+          <p>Location: Senchi</p>
+          <p>Rating: 4.6</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
+        <img src="805.png" alt="Tourist Site 1" />
+          <h3>805 Restaurant</h3>
+          <p>Location: Airport City</p>
+          <p>Rating: 4.1</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
-        </div>
-
-        <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
-          <h3>Lake Bosomtwe</h3>
-          <p>Location: Ashanti Region</p>
-          <p>Rating: 4.0</p>
+        <img src="mall.jpg" alt="Tourist Site 1" />
+          <h3>Accra Mall</h3>
+          <p>Location: Accra</p>
+          <p>Rating: 4.6</p>
         </div>
 
       </div>
