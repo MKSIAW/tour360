@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { FaHome, FaUser, FaShoppingCart, FaWater, FaFortAwesome, FaAirbnb, FaArrowLeft, FaArrowRight, FaHistory, FaTree, FaHiking, FaRainbow, FaSpeakerDeck, FaPlay, FaShoppingBasket, FaCross} from 'react-icons/fa';
-import './Dashboard.css'; // Import the CSS file
-
+import './Dashboard.css'; 
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
@@ -91,52 +90,149 @@ const Dashboard = () => {
 
 
       <div className="tourist-site-container">
-        
+
         {/* Example: Tourist Site Cards */}
         <div className="tourist-site-card">
-          <h3>Tourist Site 1</h3>
+        <img src="trinity.jpg" alt="Tourist Site 1" />
+          <h3>Holy Trinity Cathederal</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.5</p>
         </div>
         
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="Bunso.jpg" alt="Tourist Site 1" />
+          <h3>Bunso Arboretum</h3>
+          <p>Location: Eastern Region</p>
+          <p>Rating: 3.8</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="kakum.jpg" alt="Tourist Site 1" />
+          <h3>Kakum National Park</h3>
+          <p>Location: Odumase Abrafo</p>
+          <p>Rating: 4.5</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="salaga.jpg" alt="Tourist Site 1" />
+          <h3>Salaga Slave Market</h3>
+          <p>Location: Salaga</p>
+          <p>Rating: 4.2</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="Elmina.jpg" alt="Tourist Site 1" />
+          <h3>Elmina Castle</h3>
+          <p>Location: Cape Coast</p>
+          <p>Rating: 5.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="slave.jpg" alt="Tourist Site 1" />
+          <h3>Gwollu Slave Defense Wall</h3>
+          <p>Location: Upper East Region</p>
+          <p>Rating: 3.2</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-          <h3>Tourist Site 2</h3>
-          <p>Location: Kumasi</p>
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
-        
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
+        <div className="tourist-site-card">
+        <img src="lake.jpg" alt="Tourist Site 1" />
+          <h3>Lake Bosomtwe</h3>
+          <p>Location: Ashanti Region</p>
+          <p>Rating: 4.0</p>
+        </div>
+
       </div>
     </div>
     </div>

@@ -68,7 +68,11 @@ body {
     
     
   }
-  
+  .tourist-site-card img {
+    max-width: 100%; /* Make sure the image fits within the card */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 8px; /* Space between image and text */
+  }
  
 
 .navigation-icons {
