@@ -1,17 +1,20 @@
-
+// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import WelcomePage from './WelcomePage';
 import ExplorePage from './ExplorePage';
+import Dashboard from './Dashboard';
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
+    <Routes>
+  <Route path="/" element={<WelcomePage />} />
+
+     
         <Route path="/explore" element={<ExplorePage />} />
-        <Route path="/" element={<WelcomePage />} />
-      </Routes>
-    </Router>
+        <Route path="/dashboard" element={<Dashboard />} />
+       
+    </Routes>
   );
 };
 

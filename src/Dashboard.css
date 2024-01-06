@@ -1,0 +1,64 @@
+
+
+body {
+    margin: 0;
+  }
+  
+  .dashboard-container {
+    background: black;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    background-color: grey
+  }
+  
+  .top-bar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-bar h2 {
+    margin-right: 16px;
+  }
+  
+  .icon {
+    margin-right: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .search-bar {
+    margin-top: 16px; /* Add margin to separate from top bar */
+    padding: 8px;
+    font-size: 16px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 50%;
+    
+    
+
+   
+ 
+  }
+  
+  .main-area {
+    padding: 16px;
+  }
+  
+  .tourist-site-card {
+    background: #333;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,8 +1,7 @@
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './App';  //bcox App.js is the maon component
 import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
