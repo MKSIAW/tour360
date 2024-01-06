@@ -30,6 +30,7 @@ body {
     margin-right: 16px;
     cursor: pointer;
     
+    
   }
   
   .search-bar {
@@ -43,22 +44,61 @@ body {
     margin-left: 50%;
     
     
-
    
  
   }
   
   .main-area {
     padding: 16px;
+   
   }
   
+  .tourist-site-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
   .tourist-site-card {
     background: #333;
     padding: 16px;
     border-radius: 8px;
     width: 300px;
     margin-bottom: 16px;
+    
+    
   }
   
-  /* Add more styles as needed */
+ 
+
+.navigation-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  
+  .navigation-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .arrow {
+    font-size: 24px;
+  }
+  
+  /* ... (other styles) */
+  
   
