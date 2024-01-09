@@ -1,17 +1,28 @@
 
 import React from 'react';
+import {  Route, Link, Routes } from 'react-router-dom';
+import SignIn from './SignIn'; 
 import { FaHome, FaUser, FaShoppingCart, FaWater, FaFortAwesome, FaAirbnb, FaArrowLeft, FaArrowRight, FaHistory, FaTree, FaHiking, FaRainbow, FaSpeakerDeck, FaPlay, FaShoppingBasket, FaCross} from 'react-icons/fa';
 import './Dashboard.css'; 
 const Dashboard = () => {
+  
+  
   return (
+  
     <div className="dashboard-container">
       {/* Top Bar */}
       <div className="top-bar">
         <div className="top-bar-left">
           <h2>Tour360</h2>
-          <FaHome className="icon" />
-          <FaUser className="icon" />
-          <FaShoppingCart className="icon" />
+          <Link to="/" className="icon">
+              <FaHome />
+            </Link>
+            <Link to="/signin" className="icon">
+              <FaUser />
+            </Link>
+            <Link to="/cart" className="icon">
+              <FaShoppingCart />
+            </Link>
         </div>
        
       </div>
@@ -235,7 +246,14 @@ const Dashboard = () => {
 
       </div>
     </div>
+        <Routes>
+          <Route path="/signin" component={SignIn} />
+         
+        </Routes>
+
+   
     </div>
+   
   );
 };
 
