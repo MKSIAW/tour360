@@ -4,6 +4,9 @@ import {  Route, Link, Routes } from 'react-router-dom';
 import SignIn from './SignIn'; 
 import { FaHome, FaUser, FaShoppingCart, FaWater, FaFortAwesome, FaAirbnb, FaArrowLeft, FaArrowRight, FaHistory, FaTree, FaHiking, FaRainbow, FaSpeakerDeck, FaPlay, FaShoppingBasket, FaCross} from 'react-icons/fa';
 import './Dashboard.css'; 
+
+
+
 const Dashboard = () => {
   
   
@@ -99,14 +102,14 @@ const Dashboard = () => {
 
       <div className="tourist-site-container">
 
-        {/* Example: Tourist Site Cards */}
+     
         <div className="tourist-site-card">
         <img src="trinity.jpg" alt="Tourist Site 1" />
           <h3>Holy Trinity Cathederal</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.5</p>
         </div>
-        
+      
 
         <div className="tourist-site-card">
         <img src="Bunso.jpg" alt="Tourist Site 1" />

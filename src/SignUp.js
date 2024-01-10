@@ -42,10 +42,8 @@ const SignUp = () => {
         <FaFacebook className='social-icon' />
         <FaTwitter className='social-icon' />
         <FaGoogle className='social-icon' />
-
-
-
      </div>
+
     </div>
   );
 };
