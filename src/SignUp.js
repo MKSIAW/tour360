@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {  FaFacebook, FaTwitter, FaGoogle } from 'react-icons/fa';
 import './SignUp.css'; 
 
 const SignUp = () => {
@@ -10,23 +11,27 @@ const SignUp = () => {
       <h2>Sign Up</h2>
       <form>
         <label>
+           
           Email:
-          <input type="email" />
+          <input type="email" placeholder='Enter your email'/>
         </label>
         <br />
         <label>
+          
           Password:
-          <input type="password" />
+          <input type="password" placeholder='Enter your password' />
         </label>
         <br />
         <label>
+         
           Confirm Password:
-          <input type="password" />
+          <input type="password" placeholder='Confirm your password' />
         </label>
         <br />
         <label>
+          
           Telephone Number:
-          <input type="tel" />
+          <input type="tel" placeholder='Enter your telephone number'/>
         </label>
         <br />
         <button type="submit" className="sign-up-button">Sign Up</button>
@@ -34,13 +39,13 @@ const SignUp = () => {
       <p>Already a member? <Link to="/signin">Sign In</Link></p>
       <div className="social-buttons">
         <p>OR Sign Up with:</p>
-        {/* Add your social media icons or buttons here */}
-        {/* For simplicity, I'm using text placeholders */}
-        <span>Google</span>
-        <span>Facebook</span>
-        <span>Instagram</span>
-        <span>Twitter</span>
-      </div>
+        <FaFacebook className='social-icon' />
+        <FaTwitter className='social-icon' />
+        <FaGoogle className='social-icon' />
+
+
+
+     </div>
     </div>
   );
 };
