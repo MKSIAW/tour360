@@ -14,14 +14,11 @@ const Dashboard = () => {
       <div className="top-bar">
         <div className="top-bar-left">
           <h2>Tour360</h2>
-          <Link to="/" className="icon">
-              <FaHome />
+          <Link to="/" className="icon"><FaHome />
             </Link>
-            <Link to="/signin" className="icon">
-              <FaUser />
+            <Link to="/signin" className="icon"> <FaUser />
             </Link>
-            <Link to="/cart" className="icon">
-              <FaShoppingCart />
+            <Link to="/cart" className="icon"> <FaShoppingCart />
             </Link>
         </div>
        

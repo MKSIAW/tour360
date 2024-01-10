@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import WelcomePage from './WelcomePage';
 import ExplorePage from './ExplorePage';
 import Dashboard from './Dashboard';
+import SignIn from './SignIn';
+
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
      
         <Route path="/explore" element={<ExplorePage />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/signin" element={<SignIn />} />
+     
        
     </Routes>
   );

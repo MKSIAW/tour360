@@ -1,14 +1,15 @@
-
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';  //bcox App.js is the maon component
+import { createRoot } from 'react-dom/client';
+import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-ReactDOM.render(
+const root = document.getElementById('root');
+const rootInstance = createRoot(root);
+
+rootInstance.render(
   <Router>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </Router>,
-  document.getElementById('root')
+  </Router>
 );
