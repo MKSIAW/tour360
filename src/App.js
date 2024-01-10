@@ -5,6 +5,7 @@ import WelcomePage from './WelcomePage';
 import ExplorePage from './ExplorePage';
 import Dashboard from './Dashboard';
 import SignIn from './SignIn';
+import SignUp from './SignUp';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/explore" element={<ExplorePage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/signUp" element={<SignUp />} />
      
        
     </Routes>
