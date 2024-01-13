@@ -110,105 +110,105 @@ const Dashboard = () => {
           <p>Location: Accra</p>
           <p>Rating: 4.5</p>
           {/* Information Icon - Link to TouristSiteDetails */}
-      <Link to="/tourist-site-details">
-        <div className="information-icon">ℹ️</div>
-        </Link>
+          <div className="information-icon"><Link to="/tourist-site-details/1">ℹ️</Link></div>
         </div>
       
 
         <div className="tourist-site-card">
-        <img src="Bunso.jpg" alt="Tourist Site 1" />
+        <img src="Bunso.jpg" alt="Tourist Site 2" />
           <h3>Bunso Arboretum</h3>
           <p>Location: Eastern Region</p>
           <p>Rating: 3.8</p>
+          <div className="information-icon"><Link to="/tourist-site-details/2">ℹ️</Link></div>
+       
         </div>
 
         <div className="tourist-site-card">
-        <img src="kakum.jpg" alt="Tourist Site 1" />
+        <img src="kakum.jpg" alt="Tourist Site 3" />
           <h3>Kakum National Park</h3>
           <p>Location: Odumase Abrafo</p>
           <p>Rating: 4.5</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="salaga.jpg" alt="Tourist Site 1" />
+        <img src="salaga.jpg" alt="Tourist Site 4" />
           <h3>Salaga Slave Market</h3>
           <p>Location: Salaga</p>
           <p>Rating: 4.2</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="Elmina.jpg" alt="Tourist Site 1" />
+        <img src="Elmina.jpg" alt="Tourist Site 5" />
           <h3>Elmina Castle</h3>
           <p>Location: Cape Coast</p>
           <p>Rating: 5.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="slave.jpg" alt="Tourist Site 1" />
+        <img src="slave.jpg" alt="Tourist Site 6" />
           <h3>Gwollu Slave Defense Wall</h3>
           <p>Location: Upper East Region</p>
           <p>Rating: 3.2</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="lake.jpg" alt="Tourist Site 1" />
+        <img src="lake.jpg" alt="Tourist Site 7" />
           <h3>Lake Bosomtwe</h3>
           <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="kempinski.jpg" alt="Tourist Site 1" />
+        <img src="kempinski.jpg" alt="Tourist Site 8" />
           <h3>Kempinski Luxury Hotel</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="maxmart.jpg" alt="Tourist Site 1" />
+        <img src="maxmart.jpg" alt="Tourist Site 9" />
           <h3>MaxMart Shopping Center</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.8</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="villagio.jpg" alt="Tourist Site 1" />
+        <img src="villagio.jpg" alt="Tourist Site 10" />
           <h3>Villagio Apartments</h3>
           <p>Location: Airport City</p>
           <p>Rating: 4.3</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="kintampo.jpg" alt="Tourist Site 1" />
+        <img src="kintampo.jpg" alt="Tourist Site 11" />
           <h3>Kintampo Falls</h3>
           <p>Location: KIntampo</p>
           <p>Rating: 3.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="kwame.jpg" alt="Tourist Site 1" />
+        <img src="kwame.jpg" alt="Tourist Site 12" />
           <h3>Kwame Nkrumah Mausoleum</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="statue.jpg" alt="Tourist Site 1" />
+        <img src="statue.jpg" alt="Tourist Site 13" />
           <h3>Posuban Shrine</h3>
           <p>Location: Central Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="mankessim.jpg" alt="Tourist Site 1" />
+        <img src="mankessim.jpg" alt="Tourist Site 14" />
           <h3>Mankessim Posuban</h3>
           <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="jazz.jpg" alt="Tourist Site 1" />
+        <img src="jazz.jpg" alt="Tourist Site 15" />
           <h3>+233 Jazz Bar & Grill</h3>
           <p>Location: Roman Ridge</p>
           <p>Rating: 4.3</p>
@@ -222,28 +222,28 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="HUHUNYA.webp" alt="Tourist Site 1" />
+        <img src="HUHUNYA.webp" alt="Tourist Site 16" />
           <h3>Huhunya Caves</h3>
           <p>Location: Huhunya</p>
           <p>Rating: 2.4</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="royal.jpg" alt="Tourist Site 1" />
+        <img src="royal.jpg" alt="Tourist Site 17" />
           <h3>The Royal Senchi Resort</h3>
           <p>Location: Senchi</p>
           <p>Rating: 4.6</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="805.png" alt="Tourist Site 1" />
+        <img src="805.png" alt="Tourist Site 18" />
           <h3>805 Restaurant</h3>
           <p>Location: Airport City</p>
           <p>Rating: 4.1</p>
         </div>
 
         <div className="tourist-site-card">
-        <img src="mall.jpg" alt="Tourist Site 1" />
+        <img src="mall.jpg" alt="Tourist Site 19" />
           <h3>Accra Mall</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.6</p>
@@ -253,7 +253,7 @@ const Dashboard = () => {
     </div>
         <Routes>
           <Route path="/signin" component={SignIn} />
-          <Route path="/tourist-site-details" element={<TouristSiteDetails />} />
+          <Route path="/tourist-site-details/:siteId" element={<TouristSiteDetails />} />
          
         </Routes>
 

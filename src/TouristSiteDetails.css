@@ -1,0 +1,72 @@
+.tourist-site-details {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .tourist-site-details h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .tourist-site-details p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .image-carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slick-prev {
+    left: -30px; 
+    font-size: 2.5em;
+  }
+  
+  .slick-next {
+    right: -30px; /* Adjust position of the next button */
+  }
+  
+  
+  .image-carousel img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .history-section {
+    margin-top: 20px;
+  }
+  
+  .history-section h3 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  .history-section p{
+    font-size: 1.5em;
+  }
+  
+  .360-view-section {
+    margin-top: 20px;
+  }
+  
+  .360-view-section button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .360-view-section button:hover {
+    background-color: #2980b9;
+  }
+  
