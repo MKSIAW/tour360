@@ -115,7 +115,7 @@ const Dashboard = () => {
       
 
         <div className="tourist-site-card">
-        <img src="Bunso.jpg" alt="Tourist Site 2" />
+        <img src="Bunso.jpg" alt="Tourist Site 1" />
           <h3>Bunso Arboretum</h3>
           <p>Location: Eastern Region</p>
           <p>Rating: 3.8</p>
@@ -124,17 +124,19 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="kakum.jpg" alt="Tourist Site 3" />
+        <img src="kakum.jpg" alt="Tourist Site 1" />
           <h3>Kakum National Park</h3>
           <p>Location: Odumase Abrafo</p>
           <p>Rating: 4.5</p>
+          <div className="information-icon"><Link to="/tourist-site-details/3">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
-        <img src="salaga.jpg" alt="Tourist Site 4" />
+        <img src="salaga.jpg" alt="Tourist Site 1" />
           <h3>Salaga Slave Market</h3>
           <p>Location: Salaga</p>
           <p>Rating: 4.2</p>
+          <div className="information-icon"><Link to="/tourist-site-details/4">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -142,6 +144,7 @@ const Dashboard = () => {
           <h3>Elmina Castle</h3>
           <p>Location: Cape Coast</p>
           <p>Rating: 5.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/5">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -149,12 +152,14 @@ const Dashboard = () => {
           <h3>Gwollu Slave Defense Wall</h3>
           <p>Location: Upper East Region</p>
           <p>Rating: 3.2</p>
+          <div className="information-icon"><Link to="/tourist-site-details/6">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
         <img src="lake.jpg" alt="Tourist Site 7" />
           <h3>Lake Bosomtwe</h3>
           <p>Location: Ashanti Region</p>
+          <div className="information-icon"><Link to="/tourist-site-details/7">ℹ️</Link></div>
           <p>Rating: 4.0</p>
         </div>
 
@@ -163,12 +168,14 @@ const Dashboard = () => {
           <h3>Kempinski Luxury Hotel</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/8">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
         <img src="maxmart.jpg" alt="Tourist Site 9" />
           <h3>MaxMart Shopping Center</h3>
           <p>Location: Accra</p>
+          <div className="information-icon"><Link to="/tourist-site-details/9">ℹ️</Link></div>
           <p>Rating: 4.8</p>
         </div>
 
@@ -176,6 +183,7 @@ const Dashboard = () => {
         <img src="villagio.jpg" alt="Tourist Site 10" />
           <h3>Villagio Apartments</h3>
           <p>Location: Airport City</p>
+          <div className="information-icon"><Link to="/tourist-site-details/10">ℹ️</Link></div>
           <p>Rating: 4.3</p>
         </div>
 
@@ -183,6 +191,7 @@ const Dashboard = () => {
         <img src="kintampo.jpg" alt="Tourist Site 11" />
           <h3>Kintampo Falls</h3>
           <p>Location: KIntampo</p>
+          <div className="information-icon"><Link to="/tourist-site-details/11">ℹ️</Link></div>
           <p>Rating: 3.0</p>
         </div>
 
@@ -191,6 +200,7 @@ const Dashboard = () => {
           <h3>Kwame Nkrumah Mausoleum</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/12">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -198,6 +208,7 @@ const Dashboard = () => {
           <h3>Posuban Shrine</h3>
           <p>Location: Central Region</p>
           <p>Rating: 4.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/13">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -205,6 +216,7 @@ const Dashboard = () => {
           <h3>Mankessim Posuban</h3>
           <p>Location: Ashanti Region</p>
           <p>Rating: 4.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/14">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -212,6 +224,7 @@ const Dashboard = () => {
           <h3>+233 Jazz Bar & Grill</h3>
           <p>Location: Roman Ridge</p>
           <p>Rating: 4.3</p>
+          <div className="information-icon"><Link to="/tourist-site-details/15">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -219,6 +232,7 @@ const Dashboard = () => {
           <h3>Peduase Valley Resort</h3>
           <p>Location: Aburi</p>
           <p>Rating: 4.0</p>
+          <div className="information-icon"><Link to="/tourist-site-details/16">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -226,6 +240,7 @@ const Dashboard = () => {
           <h3>Huhunya Caves</h3>
           <p>Location: Huhunya</p>
           <p>Rating: 2.4</p>
+          <div className="information-icon"><Link to="/tourist-site-details/17">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -233,6 +248,7 @@ const Dashboard = () => {
           <h3>The Royal Senchi Resort</h3>
           <p>Location: Senchi</p>
           <p>Rating: 4.6</p>
+          <div className="information-icon"><Link to="/tourist-site-details/18">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -240,6 +256,7 @@ const Dashboard = () => {
           <h3>805 Restaurant</h3>
           <p>Location: Airport City</p>
           <p>Rating: 4.1</p>
+          <div className="information-icon"><Link to="/tourist-site-details/19">ℹ️</Link></div>
         </div>
 
         <div className="tourist-site-card">
@@ -247,6 +264,7 @@ const Dashboard = () => {
           <h3>Accra Mall</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.6</p>
+          <div className="information-icon"><Link to="/tourist-site-details/20">ℹ️</Link></div>
         </div>
 
       </div>
