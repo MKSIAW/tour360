@@ -22,7 +22,7 @@ const TouristSiteDetails = () => {
       name: 'Bunso Arboretum',
       location: 'Nsutem Road',
       rating: 3.8,
-      pictures: ['bunso.jpg', 'bunso2.jpg', 'bunso3.jpg', 'bunso4.jpg', 'bunso5.jpg'],
+      pictures: ['bunso.jpg', 'bunso2.jpeg', 'bunso3.jpeg', 'bunso4.jpeg', 'bunso5.jpeg'],
       history:
         'Bunso Arboretum is a nature reserve located in the Eastern Region of Ghana. It covers an area of approximately 16.5 hectares and is home to a wide variety of plant species. The arboretum provides a peaceful environment for nature lovers and researchers alike. ',
     },
@@ -59,9 +59,9 @@ const TouristSiteDetails = () => {
       {/* Image Carousel */}
       <div className="image-carousel">
         <Slider {...settings}>
-          {site.pictures.map((picture, index) => (
+          {site.pictures.map((pictures, index) => (
             <div key={index}>
-              <img src={picture} alt={`Tourist Site ${index + 1}`} />
+              <img src={pictures} alt={`Tourist Site ${index + 1}`} />
             </div>
           ))}
         </Slider>
