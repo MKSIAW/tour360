@@ -1,1 +1,2 @@
 public/boy.mov filter=lfs diff=lfs merge=lfs -text
+public/boy/mov filter=lfs diff=lfs merge=lfs -text
