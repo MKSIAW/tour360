@@ -1,28 +1,37 @@
 
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const TouristSiteDetails = () => {
-  const { siteId } = useParams();
-  const [siteDetails, setSiteDetails] = useState(null);
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    // Fetch details for the tourist site using siteId
-    // Example API call or data fetching logic
-    // Update setSiteDetails with the fetched data
-  }, [siteId]);
-
-  if (!siteDetails) {
-    return <div>Loading...</div>;
-  }
+  const handle360Click = () => {
+    // Implement the logic to handle the 360 view
+    // You can open a new page or a modal for the 360 view
+    console.log('Handle 360 Click');
+  };
 
   return (
-    <div>
-      <h2>{siteDetails.siteName}</h2>
-      <p>Location: {siteDetails.location}</p>
-      <p>Rating: {siteDetails.rating}</p>
-      {/* Add other details */}
-      <p>Virtual Tour Link: {siteDetails.virtualTourLink}</p>
+    <div className="tourist-site-details">
+      <h2>Site Name</h2>
+      <p>Location: Site Location</p>
+      <p>Rating: Site Rating</p>
+
+      {/* Add pictures and history about the place here */}
+      <div>
+        {/* Example: Display pictures */}
+        <img src="site-image.jpg" alt="Tourist Site" />
+      </div>
+
+      <div>
+        {/* Example: Display history */}
+        <p>Site history goes here...</p>
+      </div>
+
+      {/* 360 View Icon */}
+      <div>
+        <button onClick={handle360Click}>360 View</button>
+      </div>
     </div>
   );
 };

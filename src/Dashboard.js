@@ -4,6 +4,7 @@ import {  Route, Link, Routes } from 'react-router-dom';
 import SignIn from './SignIn'; 
 import { FaHome, FaUser, FaShoppingCart, FaWater, FaFortAwesome, FaAirbnb, FaArrowLeft, FaArrowRight, FaHistory, FaTree, FaHiking, FaRainbow, FaSpeakerDeck, FaPlay, FaShoppingBasket, FaCross} from 'react-icons/fa';
 import './Dashboard.css'; 
+import TouristSiteDetails from './TouristSiteDetails';
 
 
 
@@ -108,6 +109,10 @@ const Dashboard = () => {
           <h3>Holy Trinity Cathederal</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.5</p>
+          {/* Information Icon - Link to TouristSiteDetails */}
+      <Link to="/tourist-site-details">
+        <div className="information-icon">ℹ️</div>
+        </Link>
         </div>
       
 
@@ -248,6 +253,7 @@ const Dashboard = () => {
     </div>
         <Routes>
           <Route path="/signin" component={SignIn} />
+          <Route path="/tourist-site-details" element={<TouristSiteDetails />} />
          
         </Routes>
 

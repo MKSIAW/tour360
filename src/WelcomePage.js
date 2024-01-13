@@ -13,7 +13,7 @@ const WelcomePage = () => {
 
   return (
     <div className="welcome-container">
-      <img className="background-image" src="/background.jpg" alt="Background" />
+      <img className="background-image" src="/background1.jpg" alt="Background" />
       <div className="content">
         <h1>Tour360</h1>
         <button onClick={handleExploreClick}>Let's Explore!</button>
