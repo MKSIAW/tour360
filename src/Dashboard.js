@@ -39,6 +39,8 @@ const Dashboard = () => {
            className="search-bar" />
         </div>
 
+        
+
  {/* Navigation Icons */}
  
  <div className="navigation-icons">
@@ -164,7 +166,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="kempinski.jpg" alt="Tourist Site 1" />
+        <img src="/images/kempinski.jpg" alt="Tourist Site 1" />
           <h3>Kempinski Luxury Hotel</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
@@ -172,7 +174,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="maxmart.jpg" alt="Tourist Site 1" />
+        <img src="/images/maxmart.jpg" alt="Tourist Site 1" />
           <h3>MaxMart Shopping Center</h3>
           <p>Location: Accra</p>
           <div className="information-icon"><Link to="/tourist-site-details/9">ℹ️</Link></div>
@@ -180,7 +182,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="villagio.jpg" alt="Tourist Site 1" />
+        <img src="/images/villagio.jpg" alt="Tourist Site 1" />
           <h3>Villagio Apartments</h3>
           <p>Location: Airport City</p>
           <div className="information-icon"><Link to="/tourist-site-details/10">ℹ️</Link></div>
@@ -188,7 +190,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="kintampo.jpg" alt="Tourist Site 1" />
+        <img src="/images/kintampo.jpg" alt="Tourist Site 1" />
           <h3>Kintampo Falls</h3>
           <p>Location: KIntampo</p>
           <div className="information-icon"><Link to="/tourist-site-details/11">ℹ️</Link></div>
@@ -196,7 +198,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="kwame.jpg" alt="Tourist Site 1" />
+        <img src="images/kwame.jpg" alt="Tourist Site 1" />
           <h3>Kwame Nkrumah Mausoleum</h3>
           <p>Location: Accra</p>
           <p>Rating: 5.0</p>
@@ -204,7 +206,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="statue.jpg" alt="Tourist Site 1" />
+        <img src="images/statue.jpg" alt="Tourist Site 1" />
           <h3>Posuban Shrine</h3>
           <p>Location: Central Region</p>
           <p>Rating: 4.0</p>
@@ -220,7 +222,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="jazz.jpg" alt="Tourist Site 1" />
+        <img src="images/jazz.jpg" alt="Tourist Site 1" />
           <h3>+233 Jazz Bar & Grill</h3>
           <p>Location: Roman Ridge</p>
           <p>Rating: 4.3</p>
@@ -228,7 +230,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="peduase.jpg" alt="Tourist Site 1" />
+        <img src="images/peduase.jpg" alt="Tourist Site 1" />
           <h3>Peduase Valley Resort</h3>
           <p>Location: Aburi</p>
           <p>Rating: 4.0</p>
@@ -236,7 +238,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="HUHUNYA.webp" alt="Tourist Site 1" />
+        <img src="images/HUHUNYA.webp" alt="Tourist Site 1" />
           <h3>Huhunya Caves</h3>
           <p>Location: Huhunya</p>
           <p>Rating: 2.4</p>
@@ -244,7 +246,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="royal.jpg" alt="Tourist Site 1" />
+        <img src="/images/royal.jpg" alt="Tourist Site 1" />
           <h3>The Royal Senchi Resort</h3>
           <p>Location: Senchi</p>
           <p>Rating: 4.6</p>
@@ -252,7 +254,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="805.png" alt="Tourist Site 1" />
+        <img src="images/805.png" alt="Tourist Site 1" />
           <h3>805 Restaurant</h3>
           <p>Location: Airport City</p>
           <p>Rating: 4.1</p>
@@ -260,7 +262,7 @@ const Dashboard = () => {
         </div>
 
         <div className="tourist-site-card">
-        <img src="mall.jpg" alt="Tourist Site 1" />
+        <img src="/images/mall.jpg" alt="Tourist Site 1" />
           <h3>Accra Mall</h3>
           <p>Location: Accra</p>
           <p>Rating: 4.6</p>

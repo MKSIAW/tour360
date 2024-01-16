@@ -25,19 +25,19 @@
   
   .slick-prev {
     left: -30px; 
-    font-size: 2.5em;
+    
   }
   
   .slick-next {
-    right: -30px; /* Adjust position of the next button */
+    right: -0.5px; /* Adjust position of the next button */
   }
   
   
   .image-carousel img {
-    max-width: 100%;
+    max-width: 500%;
     max-height: 600px; /* Set a maximum height to control image dimensions */
-    border-radius: 20px;
-    margin-bottom: 600px;
+    border-radius: 10px;
+    margin-bottom: 0px;
   }
   
   .history-section {

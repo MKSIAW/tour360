@@ -14,7 +14,7 @@ const TouristSiteDetails = () => {
       name: 'The Holy Trinity Cathedral',
       location: 'Accra',
       rating: 4.5,
-      pictures: ['images/trinity1.jpg', 'images/trinity2.jpg', 'images/trinity3.jpg', 'images/trinity4.jpg', '/images/trinity5.jpg'],
+      pictures: ['/images/trinity1.jpg', '/images/trinity2.jpg', '/images/trinity3.jpg', '/images/trinity4.jpg', '/images/trinity5.jpg'],
       history:
         'Holy Trinity Cathedral is an Anglican church built in 1894, the period of British colonization. In 1949, the church obtained the status of Cathedral. The Cathedral is located on 28th February Road in a busy area with a lot of shops, banks, and offices. It is famous because The Prince of Wales, Queen Elizabeth II, and Prince Philip worshipped here.',
     },
@@ -22,7 +22,7 @@ const TouristSiteDetails = () => {
       name: 'Bunso Arboretum',
       location: 'Nsutem Road',
       rating: 3.8,
-      pictures: ['bunso.jpg', 'bunso2.jpeg', 'bunso3.jpeg', 'bunso4.jpeg', 'bunso5.jpeg'],
+      pictures: ['/images/bunso.jpg', '/images/bunso2.jpeg', '/images/bunso3.jpeg', '/images/bunso4.jpeg', '/images/bunso5.jpeg'],
       history:
         'Bunso Arboretum is a nature reserve located in the Eastern Region of Ghana. It covers an area of approximately 16.5 hectares and is home to a wide variety of plant species. The arboretum provides a peaceful environment for nature lovers and researchers alike. ',
     },
@@ -30,7 +30,7 @@ const TouristSiteDetails = () => {
       name: 'Kakum National Park',
       location: 'Odumasi Abrefo',
       rating: 4.5,
-      pictures: ['kakum.jpg'], 
+      pictures: ['/images/kakum.jpg'], 
       history:
         'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -44,9 +44,9 @@ const TouristSiteDetails = () => {
     },
     5: {
         name: 'Elmina Castle',
-        location: 'Ape Coast',
+        location: 'Cape Coast',
         rating: 5.0,
-        pictures: ['elmina.jpg', 'elmina.jpeg','elmina2.jpeg', 'elmina3.jpeg', 'elmina4.jpeg', 'elmina5.jpeg'], // Add more pictures if available
+        pictures: ['/images/elmina.jpg', '/images/elmina.jpeg','/images/elmina2.jpeg', '/images/elmina3.jpeg', '/images/elmina4.jpeg', '/images/elmina5.jpeg'], 
         history:
           'Renowned as the first major European construction in tropical Africa, St. Georges Castle, in the town of Elmina in the Central Region of Ghana, was founded by the Portuguese in 1482. The site of the Castle was selected by Portuguese navigators, as it was advantageously located at the end of a narrow promontory, a stones throw away from both the Atlantic Ocean and the Benya River. The lee of the low headland provided an excellent natural harbour. St Georges Castle or Sao Jorge da Mina, after the patron-saint of Portugal, as the castle was known to the Portuguese, afforded the Portuguese a trade monopoly in the area, with unrivalled access to the regions gold. The sheer magnitude of trade volumes resulted in labour challenges, as navies were unable to convey the large quantities of European goods to all markets. The importation of slaves from Benin in exchange for gold and ivory in the early 16th century was the identified solution. However, not long after, the influx of superior gold from Mexico into Europe caused gold prices to plummet rapidly. The economically distraught Portuguese were easily ousted from Elmina in 1637 by the Dutch. The main Dutch trades were gold and slaves; they reconstructed the castle between 1770 and 1775. Until 1872, the castle served as the focal coordinating point for Dutch Gold Coast activities. In 1682, the author Jean Barbot described St. Georges Castle as having no equal on all the coast of Guinea, with respect to beauty and strength. On 6th April, 1872, the castle was ceded to the British. In recent years, it has served as Police Recruit Training Centre, a secondary school, and it is presently a historical museum.  St. George’s Castle is featured on the UNESCO World Heritage List.'
 
