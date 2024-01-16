@@ -30,7 +30,7 @@ const TouristSiteDetails = () => {
       name: 'Kakum National Park',
       location: 'Odumasi Abrefo',
       rating: 4.5,
-      pictures: ['kakum.jpg'], // Add more pictures if available
+      pictures: ['kakum.jpg'], 
       history:
         'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -38,23 +38,24 @@ const TouristSiteDetails = () => {
         name: 'Salaga Slave Market',
         location: 'Salaga',
         rating: 4.2,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
-          'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
+          'From the 16th century, Salaga was one of leading market centers in West Africa.[5] Kola, beads, ostrich feathers, animal hides, textiles and gold were among the goods traded in the market.[1] However, in the 18th century, the market became a key center in the trading of humans. People from the Upper west, Upper East and Northern Regions served as sources for slaves. Slaves from the market were mostly exchanged for Kola nuts, cowries and gold.',
     },
     5: {
         name: 'Elmina Castle',
         location: 'Ape Coast',
         rating: 5.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['elmina.jpg', 'elmina.jpeg','elmina2.jpeg', 'elmina3.jpeg', 'elmina4.jpeg', 'elmina5.jpeg'], // Add more pictures if available
         history:
-          'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
+          'Renowned as the first major European construction in tropical Africa, St. Georges Castle, in the town of Elmina in the Central Region of Ghana, was founded by the Portuguese in 1482. The site of the Castle was selected by Portuguese navigators, as it was advantageously located at the end of a narrow promontory, a stones throw away from both the Atlantic Ocean and the Benya River. The lee of the low headland provided an excellent natural harbour. St Georges Castle or Sao Jorge da Mina, after the patron-saint of Portugal, as the castle was known to the Portuguese, afforded the Portuguese a trade monopoly in the area, with unrivalled access to the regions gold. The sheer magnitude of trade volumes resulted in labour challenges, as navies were unable to convey the large quantities of European goods to all markets. The importation of slaves from Benin in exchange for gold and ivory in the early 16th century was the identified solution. However, not long after, the influx of superior gold from Mexico into Europe caused gold prices to plummet rapidly. The economically distraught Portuguese were easily ousted from Elmina in 1637 by the Dutch. The main Dutch trades were gold and slaves; they reconstructed the castle between 1770 and 1775. Until 1872, the castle served as the focal coordinating point for Dutch Gold Coast activities. In 1682, the author Jean Barbot described St. Georges Castle as having no equal on all the coast of Guinea, with respect to beauty and strength. On 6th April, 1872, the castle was ceded to the British. In recent years, it has served as Police Recruit Training Centre, a secondary school, and it is presently a historical museum.  St. George’s Castle is featured on the UNESCO World Heritage List.'
+
     },
     6: {
         name: 'Gwollu Slave Defense Wall',
         location: 'Upper East REgion',
         rating: 3.2,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -62,7 +63,7 @@ const TouristSiteDetails = () => {
         name: 'Lake Bosomtwe',
         location: 'Ashanti Region',
         rating: 4.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -70,7 +71,7 @@ const TouristSiteDetails = () => {
         name: 'Kempinski Luxury Hotel',
         location: 'Accra',
         rating: 5.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -78,7 +79,7 @@ const TouristSiteDetails = () => {
         name: 'Max MArt Shopping Center',
         location: 'Accra',
         rating: 4.8,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -86,7 +87,7 @@ const TouristSiteDetails = () => {
         name: 'Villagio Apartments',
         location: 'Airport City',
         rating: 4.3,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -94,7 +95,7 @@ const TouristSiteDetails = () => {
         name: 'Kintampo Falls',
         location: 'Kintampo',
         rating: 3.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -102,7 +103,7 @@ const TouristSiteDetails = () => {
         name: 'Kwame Nkrumah Mausoleum',
         location: 'Accra',
         rating: 5.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -110,7 +111,7 @@ const TouristSiteDetails = () => {
         name: 'Posuban shrine',
         location: 'Central Region',
         rating: 4.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -118,7 +119,7 @@ const TouristSiteDetails = () => {
         name: 'Mankessim Posuban',
         location: 'Ashanti Region',
         rating: 4.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -126,7 +127,7 @@ const TouristSiteDetails = () => {
         name: '+233 Jazz & Grill',
         location: 'Roman Ridge',
         rating: 4.3,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -134,7 +135,7 @@ const TouristSiteDetails = () => {
         name: 'Peduase Valley Resort',
         location: 'Aburi',
         rating: 4.0,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -142,7 +143,7 @@ const TouristSiteDetails = () => {
         name: 'Huhunya Caves',
         location: 'Huhunya',
         rating: 2.4,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -150,7 +151,7 @@ const TouristSiteDetails = () => {
         name: 'The Royal Senchi Resort',
         location: 'Senchi',
         rating: 4.6,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -158,7 +159,7 @@ const TouristSiteDetails = () => {
         name: '805 Restaurant',
         location: 'Airport City',
         rating: 4.1,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
@@ -166,7 +167,7 @@ const TouristSiteDetails = () => {
         name: 'Accra Mall',
         location: 'Accra, N1 Road',
         rating: 4.6,
-        pictures: ['kakum.jpg'], // Add more pictures if available
+        pictures: ['kakum.jpg'], 
         history:
           'Kakum National Park is a nature reserve located in the Central Region of Ghana. It is famous for its canopy walkway, which is suspended 30 meters above the ground and offers stunning views of the rainforest.',
     },
