@@ -14,7 +14,7 @@ const TouristSiteDetails = () => {
       name: 'The Holy Trinity Cathedral',
       location: 'Accra',
       rating: 4.5,
-      pictures: ['trinity1.jpg', 'trinity2.jpg', 'trinity3.jpg', 'trinity4.jpg', 'trinity5.jpg'],
+      pictures: ['images/trinity1.jpg', 'images/trinity2.jpg', 'images/trinity3.jpg', 'images/trinity4.jpg', '/images/trinity5.jpg'],
       history:
         'Holy Trinity Cathedral is an Anglican church built in 1894, the period of British colonization. In 1949, the church obtained the status of Cathedral. The Cathedral is located on 28th February Road in a busy area with a lot of shops, banks, and offices. It is famous because The Prince of Wales, Queen Elizabeth II, and Prince Philip worshipped here.',
     },
@@ -205,9 +205,9 @@ const TouristSiteDetails = () => {
       {/* Image Carousel */}
       <div className="image-carousel">
         <Slider {...settings}>
-          {site.pictures.map((pictures, index) => (
+          {site.pictures.map((picture, index) => (
             <div key={index}>
-              <img src={pictures} alt={`Tourist Site ${index + 1}`} />
+              <img src={picture} alt={`Tourist Site ${index + 1}`} />
             </div>
           ))}
         </Slider>
