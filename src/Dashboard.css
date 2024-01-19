@@ -5,22 +5,28 @@ body {
   }
   
   .dashboard-container {
+    /* position: relative; */
     background: black;
     color: white;
     min-height: 100vh;
+   
+
   }
-  
+
+ 
+
   .top-bar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0.5px;
     background-color: grey
   }
   
   .top-bar-left {
-    display: flex;
+    display: fixed;
     align-items: center;
     margin-left: auto;
+   
   }
   
   .top-bar h2 {
@@ -38,7 +44,7 @@ body {
   }
   
   .search-bar {
-    margin-top: 16px; /* Add margin to separate from top bar */
+    margin-top: 16px; 
     padding: 8px;
     font-size: 16px;
     padding: 8px;
@@ -53,6 +59,7 @@ body {
   }
   
   .main-area {
+    /* flex-grow: 1; */
     padding: 16px;
    
   }

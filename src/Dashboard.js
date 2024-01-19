@@ -1,14 +1,22 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import {  Route, Link, Routes } from 'react-router-dom';
 import SignIn from './SignIn'; 
 import { FaHome, FaUser, FaShoppingCart, FaWater, FaFortAwesome, FaAirbnb, FaArrowLeft, FaArrowRight, FaHistory, FaTree, FaHiking, FaRainbow, FaSpeakerDeck, FaPlay, FaShoppingBasket, FaCross} from 'react-icons/fa';
 import './Dashboard.css'; 
 import TouristSiteDetails from './TouristSiteDetails';
+import RegionFilter from './RegionFilter';
 
 
 
 const Dashboard = () => {
+
+  const [selectedRegion, setSelectedRegion] = useState('All Regions');
+
+  const handleRegionChange = (region) => {
+    // Handle the region change (e.g., filter tourist sites based on the selected region)
+    setSelectedRegion(region);
+  };
   
   
   return (
@@ -18,28 +26,38 @@ const Dashboard = () => {
       <div className="top-bar">
         <div className="top-bar-left">
           <h2>Tour360</h2>
+
+         
           <Link to="/" className="icon"><FaHome />
             </Link>
             <Link to="/signin" className="icon"> <FaUser />
             </Link>
             <Link to="/cart" className="icon"> <FaShoppingCart />
             </Link>
+
         </div>
        
       </div>
 
+{/* Filter Sidebar */}
+<div className="filter-sidebar">
+        <RegionFilter onChange={handleRegionChange} />
+      </div>
+
+
+
       {/* Main Area */}
       <div className="main-area">
-      <div>
-          {/* Search Bar */}
-     
-          <input 
-          type="text" 
-          placeholder="Anywhere in Ghana"
-           className="search-bar" />
-        </div>
+  <div>
+        {/* Search Bar */}
+        <input
+            type="text"
+            placeholder="Anywhere in Ghana"
+            className="search-bar"
+           />
 
-        
+  </div>
+
 
  {/* Navigation Icons */}
  
